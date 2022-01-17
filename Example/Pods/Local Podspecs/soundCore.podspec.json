@@ -1,0 +1,22 @@
+{
+  "name": "soundCore",
+  "version": "0.1.0",
+  "summary": "A short description of soundCore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/asd82224f@gmail.com/soundCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "asd82224f@gmail.com": "limingnie@transcodegroup.com"
+  },
+  "source": {
+    "git": "https://github.com/asd82224f@gmail.com/soundCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "soundCore/Classes/**/*"
+}

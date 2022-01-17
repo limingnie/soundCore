@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'soundCore'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of soundCore.'
+  s.summary          = 'tg of soundCore.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/asd82224f@gmail.com/soundCore'
+  s.homepage         = 'https://github.com/limingnie/soundCore'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'asd82224f@gmail.com' => 'limingnie@transcodegroup.com' }
-  s.source           = { :git => 'https://github.com/asd82224f@gmail.com/soundCore.git', :tag => s.version.to_s }
+  s.author           = { 'lmn' => 'limingnie@transcodegroup.com' }
+  s.source           = { :git => 'https://github.com/limingnie/soundCore.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'soundCore/Classes/**/*'
+  s.source_files = 'soundCore/Classes/*'
+  s.frameworks = 'AVFoundation','MediaPlayer'
   
   # s.resource_bundles = {
   #   'soundCore' => ['soundCore/Assets/*.png']
